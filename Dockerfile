@@ -1,4 +1,4 @@
-FROM alpine:3.5
+FROM debian:stretch-slim
 
 LABEL maintainer="Casey Morton <caseyjmorton@gmail.com>"
 
