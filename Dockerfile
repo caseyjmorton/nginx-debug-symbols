@@ -28,6 +28,7 @@ RUN set -x \
 	&& dpkgArch="$(dpkg --print-architecture)" \
 	&& nginxPackages=" \
 		nginx=${NGINX_VERSION} \
+		nginx-dbg=${NGINX_VERSION} \
 		nginx-module-xslt=${NGINX_VERSION} \
 		nginx-module-geoip=${NGINX_VERSION} \
 		nginx-module-image-filter=${NGINX_VERSION} \
